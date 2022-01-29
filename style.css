@@ -1,0 +1,292 @@
+body {
+    background-image: url(img/fundo-wallpaper.png);
+    background-repeat: no-repeat;
+    background-position: initial;
+    display: initial;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.top_cabecalho {
+    margin-top: 35px;
+}
+
+.vl {
+    border-left: 2px solid white;
+    height: 40px;
+    position: absolute;
+    left: 26.8%;
+    margin-top: 56px;
+    top: 0;
+}
+
+#logo_1 {
+    margin-left: 20.83%;
+}
+
+#logo_2 {
+    width: 40px;
+    height: 40px;
+    margin-left: 60px;
+}
+
+#logo_3 {
+    height: 39px;
+    width: 148px;
+    margin-left: 38%;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.centro {
+    position: relative;
+    width: 600px;
+    height: 224px;
+    left: 660px;
+    top: 232px;
+    background-image: url(img/arcane.png);
+}
+
+#titulo_botao {
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    margin-left: 120px;
+    margin-top: 250px;
+    background: #E3D2BC;
+    border: 2px solid #111111;
+    box-sizing: border-box;
+}
+
+#titulo_botao:hover {
+    cursor: pointer;
+    z-index: 400;
+    background-color: #685044;
+    transition: .5s all ease;
+}
+
+.box_info:hover {
+    cursor: pointer;
+    z-index: 400;
+    background-color: #685044;
+    transition: .5s all ease;
+}
+
+.box_info a:hover {
+    color: rgb(237, 224, 206);
+}
+
+#titulo_botao h3 {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #111111;
+}
+
+.boneca {
+    position: relative;
+    width: 600px;
+    height: 702.27px;
+    left: 1260px;
+    top: 8%;
+    background: url(img/jinx.png);
+}
+
+.box_info {
+    position: relative;
+    width: 724px;
+    height: 187px;
+    left: 460px;
+    top: -186px;
+    background: #E3D2BC;
+    border: 2px solid rgb(8, 19, 41);
+    box-sizing: border-box;
+}
+
+.box_info h2 {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: rgb(8, 19, 41);
+    margin-left: 30%;
+}
+
+.box_info p {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    color: rgb(8, 19, 41);
+    margin-left: 30%;
+}
+
+.box_info a {
+    color: rgb(8, 19, 41);
+}
+
+#video_box {
+    position: absolute;
+    width: 230px;
+    height: 150px;
+    margin-left: -36px;
+    margin-top: 18px;
+    background: #111111;
+}
+
+.opacity {
+    position: relative;
+    width: 1448px;
+    height: auto;
+    left: 450px;
+    top: 0;
+    background: #E3D2BC;
+    opacity: 0.2;
+    border-radius: 0px 0px 0px 24px;
+}
+
+.rodape_info {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin-bottom: -20px;
+    background: #212121;
+}
+
+.info-footer {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    top: 22px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: rgb(237, 224, 206);
+}
+
+.info-footer p {
+    color: rgb(237, 224, 206);
+}
+
+.box_info_serie {
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+/*background video*/
+.box_info_video {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -188px;
+    margin-bottom: -28px;
+    background-color: #111111;
+}
+
+.box_info_video video {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+/*animate*/
+.animate__fadeInDown {
+    animation-duration: 5s !important;
+}
+.animate__fadeInRight {
+    animation-duration: 3s !important;
+}
+
+/*responsive*/
+@media (max-width: 926px) {
+
+    .top_cabecalho {
+        margin-top: 35px;
+        display: flex;
+        align-items: center;
+        left: 12px;
+        position: relative;
+    }
+
+    .vl {
+        border-left: 2px solid white;
+        height: 40px;
+        position: absolute;
+        left: 26.8%;
+        top: -54px;
+    }
+
+    .box_info_video video {
+        position: relative;
+        object-fit: cover;
+        height: auto;
+        display: flex;
+    }
+
+    .box_info_video {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -188px;
+        margin-bottom: -28px;
+        background-color: #111111;
+    }
+
+    .box_info {
+        display: none;
+    }
+
+    .centro {
+        position: relative;
+        height: 240px;
+        left: 16px;
+        background-image: url(img/arcanelogotipo.png);
+        display: flex;
+        width: 400px;
+    }
+
+    #titulo_botao {
+        position: relative;
+        width: 100%;
+        height: 80px;
+        background: #E3D2BC;
+        border: 2px solid #111111;
+        box-sizing: border-box;
+    }
+
+    #titulo_botao h3 {
+        font-family: Times New Roman;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        color: #111111;
+        text-align: center;
+    }
+
+    .rodape_info {
+        position: relative;
+        width: 100%;
+        height: 60px;
+        margin-bottom: -78px;
+        background: #212121;
+    }
+}

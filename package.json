@@ -1,0 +1,8 @@
+{
+  "name": "animated",
+  "version": "1.0.0",
+  "description": "animation",
+  "main": "index.js",
+  "author": "kellen",
+  "license": "MIT"
+}
