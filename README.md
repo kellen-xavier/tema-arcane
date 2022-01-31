@@ -1,6 +1,6 @@
 # Arcane
 
-<p>Sobre: Simples tema da série Arcane, para apresentação.</p>
+<p>Sobre: Simples LandingPage da série Arcane da Netflix.</p>
 
 <h3>Desenvolvido por:</h3> 
  
